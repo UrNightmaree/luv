@@ -7,13 +7,13 @@ luv
 [![Total Alerts](https://img.shields.io/lgtm/alerts/g/luvit/luv.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/luvit/luv/alerts)
 
 [libuv](https://github.com/libuv/libuv) bindings for
-[luajit](http://luajit.org/) and [lua](http://www.lua.org/)
+[LuaJIT](http://luajit.org/) and [Lua](http://www.lua.org/)
 [5.1](http://www.lua.org/manual/5.1/manual.html)/
 [5.2](http://www.lua.org/manual/5.2/manual.html)/
 [5.3](http://www.lua.org/manual/5.3/manual.html)/
 [5.4](http://www.lua.org/manual/5.4/manual.html).
 
-This library makes libuv available to lua scripts.  It was made for the [luvit](http://luvit.io/) project but should usable from nearly any lua project.
+This library makes libuv available to lua scripts.  It was made for the [Luvit](http://luvit.io/) project but should usable from nearly any Lua project.
 
 The library can be used by multiple threads at once.  Each thread is assumed to load the library from a different `lua_State`.  Luv will create a unique `uv_loop_t` for each state.  You can't share uv handles between states/loops.
 
